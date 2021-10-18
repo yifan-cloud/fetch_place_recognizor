@@ -7,14 +7,19 @@ Only test it on the simulation env.
 Build DBoW2 first
 
 `cd include`
+
 `mkdir build`
+
 `cd build`
+
 `cmake ..`
+
 `make`
 
 Then catkin_make the rospackage
 
 `cd ../`
+
 `catkin_make`
 
 Start Fetch simulation first
@@ -23,4 +28,4 @@ Start Fetch simulation first
 
 Then start the place_recognition node
 
-`rosrun place_recognition ple_recognition`
+`rosrun place_recognition place_recognition`
