@@ -23,7 +23,7 @@ using namespace std;
 #define CONST_IMAGE_SCALE_FACTOR_INV_DEFAULT     0.25f
 #define MACRO_RGB_IMG_TOPIC                 "/head_camera/rgb/image_raw"
 #define BEST_MATCH_INDEX_TOPIC              "/place_recognizor/bestmatch"
-#define DATABASE_PATH                       "/home/yifan/DBoW2/build/small_db.yml.gz"
+#define DATABASE_PATH                       "./src/place_recognition/dataset/small_db.yml.gz"
 
 typedef DBoW2::TemplatedVocabulary<DBoW2::FORB::TDescriptor, DBoW2::FORB>
     ORBVocabulary;
