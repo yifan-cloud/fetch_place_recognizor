@@ -29,3 +29,11 @@ Start Fetch simulation first
 Then start the place_recognition node
 
 `rosrun place_recognition place_recognition`
+
+## Subscribe
+
+Image:  "/head_camera/rgb/image_raw"
+
+## Publish
+
+Best match index: "/place_recognizor/bestmatch"
